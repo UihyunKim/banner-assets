@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>320x480</title>
+    <meta name="ad.size" content="width=320,height=480" />
+    <link rel="stylesheet" media="all" href="assets/style.css" />
+    <script type="text/javascript">
+      var clickTag = "https://www.google.fr/";
+    </script>
+    <style>
+      .element {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- 1st screen -->
+      <img id="logo" class="element" src="images/logo.png" />
+      <img id="red-bar" class="element" src="images/red-bar.png" />
+      <img id="title" class="element" src="images/title.png" />
+      <img id="grandfa" class="element" src="images/grandfa.png" />
+      <img id="car" class="element" src="images/car.png" />
+      <div id="translation" class="element">
+        <span>
+          MONOPOLY TM, ® & © 2021 Hasbro. Tous Droits Réservés. Lucky Days =
+          jours de chance
+        </span>
+      </div>
+
+      <!-- 2nd screen -->
+      <img id="copy1" class="element" src="images/copy1.png" />
+      <img id="cta" class="element" src="images/cta.png" />
+      <img id="offer" class="element" src="images/offer.png" />
+      <div id="ml" class="element">
+        <span>*Voir mentions légales sur le site.</span>
+      </div>
+
+      <!-- final screen -->
+      <img id="copy2" class="element" src="images/copy2.png" />
+      <div id="dealer" class="element">
+        <div class="positioner">
+          <p id="retail"></p>
+          <p id="address"></p>
+        </div>
+      </div>
+      <a
+        id="clickthrough"
+        href="javascript:window.open(window.clickTag);void(0);"
+        style="position: absolute; width: 100%; height: 100%"
+      ></a>
+    </div>
+    <script type="text/javascript" src="assets/anime.min.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+  </body>
+</html>
