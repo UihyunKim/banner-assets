@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>300x50</title>
+    <meta name="ad.size" content="width=300,height=50" />
+    <link rel="stylesheet" media="all" href="assets/style.css" />
+    <script type="text/javascript">
+      var clickTag = "https://www.google.fr/";
+    </script>
+    <style>
+      .element {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- 1st screen -->
+      <img id="logo" src="images/logo.png" />
+      <img id="red-bar" src="images/red-bar.png" />
+
+      <div
+        id="title"
+        style="
+          position: absolute;
+          top: 10px;
+          left: 70px;
+          width: 100%;
+          height: 100%;
+        "
+      >
+        <div style="font-size: 10px; line-height: 10px">AVANCEZ JUSQU’AUX</div>
+        <div style="line-height: 15px; font-size: 14px">LUCKY DAYS TOYOTA</div>
+      </div>
+      <img id="car" style="position: absolute" src="images/car.png" />
+      <div id="translation" class="element">
+        <span>
+          MONOPOLY TM, ® & © 2021 Hasbro. Tous Droits Réservés. Lucky Days =
+          jours de chance
+        </span>
+      </div>
+
+      <!-- 2nd screen -->
+      <div id="copy1" class="element" style="left: 73px; top: 2px">
+        <div class="regular red" style="font-size: 10px; line-height: 10px">
+          DU 11 AU 17 JANVIER 2021
+        </div>
+
+        <div class="regular" style="position: relative">
+          <span style="position: absolute; top: 0; left: 0; font-size: 9px"
+            >JUSQU’À</span
+          >
+          <!--  -->
+          <span
+            style="position: absolute; top: -7px; left: 32px; font-size: 27px"
+            >-30%*
+          </span>
+          <!--  -->
+          <div
+            style="
+              position: absolute;
+              width: 1px;
+              height: 24px;
+              border-left: 1px solid white;
+              left: 115px;
+              top: 5px;
+            "
+          ></div>
+          <!--  -->
+          <span style="position: absolute; left: 125px; font-size: 15px; top: 0"
+            >SUR AYGO</span
+          >
+          <!--  -->
+          <span
+            style="position: absolute; left: 125px; font-size: 7px; top: 19px"
+            >selon stock disponible</span
+          >
+        </div>
+      </div>
+      <!-- <img id="cta" class="element" src="images/cta.png" /> -->
+      <!-- <img id="offer" class="element" src="images/offer.png" /> -->
+      <div id="ml" class="element">
+        <span>*Voir mentions légales sur le site.</span>
+      </div>
+
+      <!-- final screen -->
+      <!-- copy2 -->
+      <div id="copy2" class="element" style="left: 73px; top: 2px;">
+        <div class="regular red" style="font-size: 9px; line-height: 10px">
+          RENDEZ-VOUS CHEZ VOTRE CONCESIONNAIRE
+        </div>
+      </div>
+      <!-- end copy2 -->
+
+      <div id="dealer" class="element">
+        <div class="positioner">
+          <p id="retail"></p>
+          <p id="address"></p>
+        </div>
+      </div>
+      <a
+        id="clickthrough"
+        href="javascript:window.open(window.clickTag);void(0);"
+        style="position: absolute; width: 100%; height: 100%"
+      ></a>
+    </div>
+    <script type="text/javascript" src="assets/anime.min.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+  </body>
+</html>
