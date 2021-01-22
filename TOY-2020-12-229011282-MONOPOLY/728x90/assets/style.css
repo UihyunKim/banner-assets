@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Toyota-book";
+  src: url("ToyotaType-Book.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Toyota-book", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  width: 728px;
+  height: 90px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #282830;
+}
+
+#container .element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#translation span {
+  position: absolute;
+  bottom: 1px;
+  left: 132px;
+  font-size: 6px;
+  line-height: 7px;
+}
+
+#ml span {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 6px;
+  line-height: 7px;
+}
+
+#dealer .positioner {
+  position: absolute;
+  height: 48px;
+  width: 303px;
+  bottom: 0px;
+  left: 120px;
+  overflow: auto;
+}
+
+#dealer p {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 11px;
+  line-height: 12px;
+}
