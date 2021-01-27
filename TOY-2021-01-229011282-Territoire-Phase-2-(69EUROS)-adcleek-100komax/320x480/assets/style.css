@@ -11,8 +11,8 @@ body {
 
 #container {
   position: relative;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 480px;
   margin: 0px;
   overflow: hidden;
   background-color: #282830;
@@ -26,22 +26,34 @@ body {
   height: 100%;
 }
 
-#dealer {
-  position: relative;
+#translation span {
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
+  font-size: 6px;
+  line-height: 7px;
+}
+
+#ml span {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 6px;
+  line-height: 7px;
+}
+
+#dealer .positioner {
+  position: absolute;
+  height: 78px;
+  width: 290px;
+  top: 115px;
+  right: 0;
+  overflow: auto;
 }
 
 #dealer p {
   text-transform: uppercase;
   margin: 0;
   font-size: 14px;
-  line-height: 17px;
-}
-
-#dealer .positioner {
-  position: absolute;
-  height: 75px;
-  width: 275px;
-  bottom: 80px;
-  right: 0;
-  overflow: auto;
+  line-height: 15px;
 }
