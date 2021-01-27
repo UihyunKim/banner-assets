@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
     .add({
       targets: "#title",
       opacity: [1, 0],
-      delay: 4000
+      delay: 1000
     })
     .add({
       targets: "#date",
