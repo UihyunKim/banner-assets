@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
         document.getElementById("logo").style.opacity = 1;
         document.getElementById("red-bar").style.opacity = 1;
         document.getElementById("title").style.opacity = 1;
-        document.getElementById("subtitle").style.opacity = 1;
+        // document.getElementById("subtitle").style.opacity = 1;
       },
     })
     .add({
@@ -36,11 +36,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
           el.style.visibility = "visible";
         });
       },
-    })
-    .add({
-      targets: "#subtitle",
-      opacity: [1, 0],
-      delay: 1000,
     })
     .add({
       targets: "#date",
