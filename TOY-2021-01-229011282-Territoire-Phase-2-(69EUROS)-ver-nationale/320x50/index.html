@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>320x50</title>
+    <meta name="ad.size" content="width=320,height=50" />
+    <link rel="stylesheet" media="all" href="assets/style.css" />
+    <script type="text/javascript">
+      var clickTag = "https://www.google.fr/";
+    </script>
+    <style>
+      .element {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+
+      <!-- 1st screen -->
+      <img id="logo" class="element" src="images/_320x50-logo.png" />
+      <img id="red-bar" class="element" src="images/_320x50-red-bar.png" />
+      <img id="logo-monopoly" class="element" src="images/_320x50-logo-monopoly.png" />
+      <img id="title" class="element" src="images/_320x50-title.png" />
+      <img id="car" class="element" src="images/_320x50-car.png" />
+
+      <!-- 2nd screen -->
+      <img id="date" class="element" src="images/_320x50-date.png" />
+      <img id="cta" class="element" src="images/_320x50-cta.png" />
+      <img id="offer" class="element" src="images/_320x50-offer.png" />
+
+      <!-- final screen -->
+      <div id="dealer" class="element">
+        <div class="positioner">
+          <p id="retail">TOYOTA Chambourcy - Groupe VAUBAN</p>
+          <p id="address" style="font-size: 11px">24 Route de Mantes, 78240 Chambourcy</p>
+        </div>
+      </div>
+      <a
+        id="clickthrough"
+        href="javascript:window.open(window.clickTag);void(0);"
+        style="position: absolute; width: 100%; height: 100%"
+      ></a>
+    </div>
+    <script type="text/javascript" src="assets/anime.min.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+  </body>
+</html>
